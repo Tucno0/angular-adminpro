@@ -1,0 +1,34 @@
+<div id="main-wrapper">
+  <shared-header></shared-header>
+
+  <shared-sidebar></shared-sidebar>
+
+  <div class="page-wrapper">
+
+    <div class="container-fluid">
+      <!-- Breadcrums -->
+      <shared-bread-crumbs></shared-bread-crumbs>
+
+      <!-- Mi sistema de rutas -->
+      <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <footer class="footer">
+      © 2023 Admin Pro by wrappixel.com
+    </footer>
+    <!-- ============================================================== -->
+    <!-- End footer -->
+    <!-- ============================================================== -->
+  </div>
+</div>
