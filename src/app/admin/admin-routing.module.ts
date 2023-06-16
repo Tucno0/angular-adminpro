@@ -11,10 +11,10 @@ const routes: Routes = [
     path: '',
     component : AdminLayoutComponent,
     children: [
-      { path: 'dashboard', component: DashboardPageComponent },
+      { path: '', component: DashboardPageComponent },
       { path: 'progress', component: ProgressPageComponent },
       { path: 'grafica1', component: Grafica1PageComponent },
-      { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+      { path: '', redirectTo: '', pathMatch: 'full' },
       { path: '**', redirectTo: 'dashboard'}
     ]
   }
