@@ -20,7 +20,8 @@ import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component'
   exports: [
     BreadCrumbsComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    NopagefoundComponent
   ]
 })
 export class SharedModule { }
