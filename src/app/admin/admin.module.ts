@@ -10,6 +10,7 @@ import { Grafica1PageComponent } from './pages/grafica1-page/grafica1-page.compo
 import { DashboardPageComponent } from './pages/dashboard-page/dashboard-page.component';
 import { ProgressPageComponent } from './pages/progress-page/progress-page.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { AccountSettingsPageComponent } from './pages/account-settings-page/account-settings-page.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     DashboardPageComponent,
     Grafica1PageComponent,
     ProgressPageComponent,
+    AccountSettingsPageComponent,
   ],
   imports: [
     CommonModule,
