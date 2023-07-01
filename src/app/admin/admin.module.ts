@@ -11,6 +11,8 @@ import { DashboardPageComponent } from './pages/dashboard-page/dashboard-page.co
 import { ProgressPageComponent } from './pages/progress-page/progress-page.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AccountSettingsPageComponent } from './pages/account-settings-page/account-settings-page.component';
+import { PromesasComponent } from './pages/promesas/promesas.component';
+import { RxjsComponent } from './pages/rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { AccountSettingsPageComponent } from './pages/account-settings-page/acco
     Grafica1PageComponent,
     ProgressPageComponent,
     AccountSettingsPageComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   imports: [
     CommonModule,
